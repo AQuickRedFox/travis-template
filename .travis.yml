@@ -1,0 +1,10 @@
+dist: xenial
+language: cpp
+compiler:
+	- g++
+
+script:
+	- sudo apt update -y
+	- sudo apt install build-essential -y
+	- make all
+	- ./src/Main
