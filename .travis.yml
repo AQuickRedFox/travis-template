@@ -7,6 +7,7 @@ script:
  - sudo apt update -y
  - sudo apt install build-essential -y
  - wget https://www.dropbox.com/s/v8wd77fy9tzyuqz/LLVM-8.0.1-Linux.sh
+ - chmod +x LLVM-8.0.1-Linux.sh
  - ./LLVM-8.0.1-Linux.sh
  - make all
  - ./src/Main
